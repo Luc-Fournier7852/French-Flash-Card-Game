@@ -1,5 +1,7 @@
 BACKGROUND_COLOR = "#B1DDC6"
 
+print("test batch of code for update on github")
+
 
 from tkinter import *
 import pandas
@@ -8,7 +10,6 @@ import random
 # ---------------------------- Variables ------------------------------- #
 used_words=[]
 correct_words={}
-
 
 # # ---------------------------- Reading save data ------------------------------- #
 data=pandas.read_csv("data/french_words.csv")
